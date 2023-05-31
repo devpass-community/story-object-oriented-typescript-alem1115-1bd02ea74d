@@ -8,4 +8,14 @@ export class Product {
         this.name = name
         this.price = price
     }
+
+    public increasePrice(perc: number) {
+        this.price = this.price * (1 + perc / 100)
+    }
+
+    public decreasePrice(perc: number) {
+        this.price = this.price * (1 - perc / 100)
+    }
 }
+
+export { }
