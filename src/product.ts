@@ -10,4 +10,4 @@ class Product {
     }
 }
 
-export { }
+export default Product
