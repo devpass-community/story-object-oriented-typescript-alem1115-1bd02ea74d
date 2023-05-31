@@ -9,7 +9,7 @@ export class Clothing extends Product {
     }
 
     override toString() {
-        console.log("Product: " + this.name + ", Price: $" + this.price + ", Size: " + this.size)
+        return ("Product: " + this.name + ", Price: $" + this.price + ", Size: " + this.size)
     }
 }
 
