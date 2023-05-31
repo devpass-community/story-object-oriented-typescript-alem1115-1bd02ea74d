@@ -1,4 +1,4 @@
-class Product {
+export class Product {
     public id: number
     public name: string
     public price: number
@@ -9,5 +9,3 @@ class Product {
         this.price = price
     }
 }
-
-export default Product
